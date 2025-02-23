@@ -1,0 +1,21 @@
+.header {
+  height: 200px; /* Altura del encabezado */
+  background-size: 67cqh; /* Ajustar el tamaño de la imagen al contenedor */
+  background-position: center; /* Posicionar la imagen en el centro */
+  color: #fff; /* Color del texto */
+}
+
+.title {
+  font-size: 3rem; /* Tamaño del título */
+  margin-top: 20px; /* Espacio superior al título */
+  text-align: center; /* Alinear el título al centro */
+  width: 260px; /* Ancho del contenedor */
+  height: 160px; /* Alto del contenedor */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #eb8596;
+  color: #fff;
+  border-radius: 94%; /* Convertir el contenedor en un círculo */
+}
+

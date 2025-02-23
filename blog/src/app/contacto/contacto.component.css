@@ -1,0 +1,9 @@
+.header {
+  height: 160px; /* Altura del encabezado */
+  background-position: center  25%; /* Posicionar la imagen en el centro */
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  color: #fff; /* Color del texto */
+  image-rendering: auto;
+}

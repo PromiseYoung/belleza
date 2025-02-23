@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "belleza-df33c": {
+      "hosting": {
+        "blog": [
+          "belleza-df33c"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "belleza-df33c"
+  }
+}

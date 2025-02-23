@@ -1,0 +1,75 @@
+<div class="container mx-auto">
+  <main class="my-13">
+    <ng-content></ng-content>
+  </main>
+  <br /><br />
+  <footer
+    class="bg-fixed bg-cover h-68 flex items-center justify-center"
+    style="background-image: url('{{ imagePath }}varias-fondo/fondo.jpg')"
+  >
+    <div class="text-left text-black">
+      <p
+        class="text-purple-900 font-arial text-3xl leading-tight"
+        style="font-family: 'Times New Roman', Times, serif"
+      >
+        Pide cita previa
+      </p>
+      <h1 class="text-purple-900 font-arial text-7xl leading-tight mb-4">
+        RESERVA YA
+      </h1>
+      <p
+        class="text-justify font-arial text-lg leading-relaxed lg:px-8 max-w-2xl"
+        style="font-family: Arial, Helvetica, sans-serif"
+      >
+        Si estás pensando en hacernos una visita, puedes hacerlo llamando al 964
+        44 44 44 o reservando online.
+      </p>
+      <br />
+      <div class="flex justify-center items-center mt-2">
+        <div class="flex mb-9">
+          <img
+            src="{{ imagePath }}uñas-gel/uña-gris.jpg"
+            alt="Descripción de la imagen"
+            class="w-32 h-32 md:w-54 md:h-69 mx-8 rounded-full object-cover"
+          />
+          <img
+            src="{{ imagePath }}manicura/manos.jpg"
+            alt="Descripción de la imagen"
+            class="w-32 h-32 md:w-54 md:h-69 mx-8 rounded-full object-cover"
+          />
+          <img
+            src="{{ imagePath }}manicura/manicura-clasica.jpg"
+            alt="Descripción de la imagen"
+            class="w-32 h-32 md:w-54 md:h-69 mx-8 rounded-full object-cover"
+          />
+          <img
+            src="{{ imagePath }}manicura/manicura-y-pedicura.jpg"
+            alt="Descripción de la imagen"
+            class="w-32 h-32 md:w-54 md:h-69 mx-8 rounded-full object-cover"
+          />
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <footer class="bg-red-200 bg-opacity-70 text-white py-2 footer2 text-sm">
+    <div class="container mx-auto">
+      <div class="justify-center flex mb-10">
+        <img
+          src="{{ imagePath }}logo-redes/logo.png"
+          alt="Descripción de la imagen"
+          class="w-40 h-33 md:w-54 md:h-69 rounded-full object-cover"
+        />
+      </div>
+      <section class="justify-center font-family text-black">
+        <p>Contacto Av Belasco Ibañez 0000 Bajo, 46992 Valencia 961 0000 000</p>
+      </section>
+      <section class="justify-center font-family text-black">
+        <p>
+          Horario de Apertura Lunes a Sabado 10:00 AM - 9:00 PM - Domingo
+          Cerrado.
+        </p>
+      </section>
+    </div>
+  </footer>
+</div>

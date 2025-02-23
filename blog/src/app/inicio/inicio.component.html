@@ -1,0 +1,176 @@
+<div class="relative h-screen mb-10">
+  <!-- Video de fondo -->
+  <video autoplay loop muted preload="auto" class="absolute top-0 left-0 z-0">
+    <source src="{{ imagePath }}varias-fondo/pasarela.mp4" type="video/mp4" />
+  </video>
+  <!-- Contenido sobre el video -->
+  <div class="absolute top-0 left-0 w-full h-full bg-cover bg-center"></div>
+  <div
+    class="h-full bg-black bg-opacity-50 relative z-10 flex flex-col items-center justify-center"
+  >
+    <h1 class="text-5xl font-bold text-white mb-6">
+      ¡Obtén tu cita hoy mismo!
+    </h1>
+    <a
+      [routerLink]="['/contacto']"
+      routerLinkActive="router-link-active"
+      class="bg-white text-black py-3 px-8 rounded-full font-semibold shadow-lg hover:bg-red-300"
+    >
+      Obtener Cita
+    </a>
+    <div
+      class="absolute bottom-12 left-0 w-full h-13 bg-pink-200 bg-opacity-70 py-4"
+    >
+      <p class="text-lg font-medium text-purple-800 text-center">
+        ¡Bienvenido a nuestro sitio web! Somos un equipo dedicado a proporcionar
+        el mejor servicio de belleza y cuidado personal. ¡Esperamos verte
+        pronto!
+      </p>
+    </div>
+  </div>
+</div>
+
+<div class="max-w-4xl mx-auto py-8 px-4 sm:px-6 lg:px-8">
+  <div class="prose prose-lg">
+    <h2 class="text-black font-arial text-4xl mb-4">
+      Salon de Belleza en Valencia
+    </h2>
+    <p class="text-justify font-arial mb-20">
+      Pedicura, manicura, y por supuesto, las uñas de gel son algunos de los
+      servicios que ofrecen los salones de belleza. Por esta razón aquí te
+      traemos los servicios más solicitados en los centros de belleza de tu
+      elección. En Nails Lalyremm lograrás adquirir gran parte de estos
+      servicios que representan una excelente opción si deseas realizarte el
+      mantenimiento completo sin necesidad de ir a varios sitios. Somos
+      especialistas en belleza de manos, especialmente en lo relativo a la
+      estética y cuidado de tus uñas. Disponemos de los mejores tratamientos,
+      marcas, servicios y profesionales para que puedas lucir, en tu lugar de
+      trabajo, para un evento especial o simplemente por darte un capricho, esas
+      uñas perfectas que todas deseamos.
+    </p>
+  </div>
+  <div class="grid grid-cols-2 gap-4 mb-20">
+    <div
+      class="bg-white border border-gray-200 rounded-lg shadow p-4"
+      style="background-image: url('{{ imagePath }}varias-fondo/fondo.jpg');"
+    >
+      <h1
+        class="text-4xl font-semibold mb-20 text-center sm:px-6 lg:px-8 text-purple-800"
+        style="font-family: Arial, Helvetica, sans-serif"
+      >
+        Uñas de porcelana Elegancia Duradera
+      </h1>
+      <div class="text-center">
+        <a [routerLink]="['/porcelana']" routerLinkActive="router-link-active">
+          <button
+            class="inline-block text-white py-2 px-4 rounded bg-purple-600"
+          >
+            Info Mas
+          </button>
+        </a>
+      </div>
+    </div>
+    <div class="border-1 rounded-lg">
+      <img
+        src="{{ imagePath }}uñas porcelana/rositas.jpg"
+        alt="Imagen"
+        class="object-cover w-full h-full rounded-lg zoom-image"
+      />
+    </div>
+    <div class="border-1 rounded-lg">
+      <img
+        src="{{ imagePath }}uñas-gel/uña-rosa.jpg"
+        alt="Imagen"
+        class="object-cover w-full h-full rounded-lg zoom-image"
+      />
+    </div>
+    <div
+      class="bg-white border border-gray-200 rounded-lg shadow p-4"
+      style="background-image: url('{{ imagePath }}varias-fondo/fondo.jpg');"
+    >
+      <h1
+        class="text-4xl font-semibold mb-20 text-center sm:px-6 lg:px-8 text-purple-800"
+        style="font-family: Arial, Helvetica, sans-serif"
+      >
+        Brillo duradero para tus uñas de gel
+      </h1>
+      <div class="text-center">
+        <a [routerLink]="['/gel']" routerLinkActive="router-link-active">
+          <button
+            class="inline-block text-white py-2 px-4 rounded bg-purple-600"
+          >
+            Info Mas
+          </button>
+        </a>
+      </div>
+    </div>
+    <div
+      class="bg-white border border-gray-200 rounded-lg shadow p-4"
+      style="background-image: url('{{ imagePath }}varias-fondo/fondo.jpg');"
+    >
+      <h1
+        class="text-4xl font-semibold mb-20 text-center sm:px-6 lg:px-8 text-purple-800"
+        style="font-family: Arial, Helvetica, sans-serif"
+      >
+        Deja que tus manos hablen por ti con manicura clasica
+      </h1>
+      <div class="text-center">
+        <a [routerLink]="['/manicura']" routerLinkActive="router-link-active">
+          <button
+            class="inline-block text-white py-2 px-4 rounded bg-purple-600"
+          >
+            Info Mas
+          </button>
+        </a>
+      </div>
+    </div>
+    <div class="border-1 rounded-lg">
+      <img
+        src="{{ imagePath }}uñas-gel/uña-roja.jpg"
+        alt="Imagen"
+        class="object-cover w-full h-full rounded-lg zoom-image"
+      />
+    </div>
+    <div class="border-1 rounded-lg">
+      <img
+        src="{{ imagePath }}uñas-gel/unas-gel-combinacion-esmaltes.jpg"
+        alt="Imagen"
+        class="object-cover w-full h-full rounded-lg zoom-image"
+      />
+    </div>
+    <div
+      class="border border-gray-200 rounded-lg shadow p-4"
+      style="background-image: url('{{ imagePath }}varias-fondo/fondo.jpg');"
+    >
+      <h1
+        class="text-4xl font-semibold mb-20 text-center sm:px-6 lg:px-8 text-purple-800"
+        style="font-family: Arial, Helvetica, sans-serif"
+      >
+        Pies Suaves, Paso ligero con pedicura
+      </h1>
+      <div class="text-center">
+        <a [routerLink]="['/pedicura']" routerLinkActive="router-link-active">
+          <button
+            class="inline-block text-white py-2 px-4 rounded bg-purple-600"
+          >
+            Info Mas
+          </button>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="prose prose-lg">
+  <h1
+    class="text-5xl font-medium text-purple-800 mb-6 text-center"
+    style="font-family: 'Times New Roman', Times, serif"
+  >
+    Eleva tu estilo...
+  </h1>
+  <h2
+    class="text-5xl font-medium text-purple-800 mb-6 text-center"
+    style="font-family: 'Times New Roman', Times, serif"
+  >
+    Nails Laly Femm
+  </h2>
+</div>

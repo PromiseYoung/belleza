@@ -1,0 +1,11 @@
+.zoom-image {
+  transition: transform 0.5s ease; /* Establecer la duración y el efecto de transición */
+}
+.zoom-image:hover {
+  transform: scale(1.1); /* Establecer el valor de escala al pasar el cursor por encima */
+}
+video {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}

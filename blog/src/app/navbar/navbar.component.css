@@ -1,0 +1,35 @@
+ .navbar {
+  border-bottom: 1px solid #ddd;
+}
+
+.navbar-brand {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.navbar-brand img {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+}
+
+.navbar-nav {
+  margin-left: auto;
+}
+
+.nav-link {
+  color: #656363;
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-right: 1rem;
+}
+
+.nav-link:hover {
+  color: #3b82f6;
+} */
+
+.navbar-brand img {
+  height: 40px;
+  width: 40px;
+}
+

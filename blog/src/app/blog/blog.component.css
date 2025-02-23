@@ -1,0 +1,27 @@
+.header {
+  height: 160px; /* Altura del encabezado */
+  background-position: center  47%; /* Posicionar la imagen en el centro */
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  color: #fff; /* Color del texto */
+}
+.image-container {
+  max-width: 900px;
+  display: grid;
+  justify-content: baseline;
+  /* grid-template-columns: repeat(3, 1fr); */
+}
+
+.image-container img {
+  width: 90%;
+  height: 90%;
+  object-fit: cover; /* Recorta la imagen para mantener la proporción */
+  border-radius: 8px;
+}
+.zoom-image {
+  transition: transform 0.5s ease; /* Establecer la duración y el efecto de transición */
+}
+.zoom-image:hover {
+  transform: scale(1.1); /* Establecer el valor de escala al pasar el cursor por encima */
+}
